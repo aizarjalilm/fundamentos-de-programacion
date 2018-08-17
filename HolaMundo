@@ -1,0 +1,23 @@
+// hola mundo 2.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+	cout<<"Hola Mundo"<<endl;
+	cout<<"Soy Aizar Jalil";
+	getch();
+}
+
+//Pseudocodigo//
+
+Proceso HolaMundo
+	Escribir "Hola Mundo"
+	Escribir "Soy Aizar Jalil"
+	
+FinProceso
