@@ -1,0 +1,36 @@
+// area del triangulo.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+int main()
+{
+	int b,h;
+	cout << "ingresar base:";
+	cin >> b ;
+	cout << "ingresar altura:";
+	cin >> h ;
+	cout << "el area del paralelogramo es:" << b*h <<endl;
+	cout << ":)";
+	getch() ;
+}
+
+***///Pseudocodigo///***
+
+
+Algoritmo areadeltriangulo
+	escribir "ingresar la base:";
+	leer b;
+	escribir "ingresar la altura:";
+	leer h;
+	area<-(b*h);
+	escribir "el area del paralelogramo es:";
+	escribir area;
+	escribir ":)";
+
+	
+FinAlgoritmo
