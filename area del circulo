@@ -22,7 +22,7 @@ int main()
 
 
 
-Algoritmo areadeltriangulo
+Algoritmo areadelcirculo
 	escribir "ingresar el radio:";
 	leer r;
 	area<-(3.1416*r*r);
