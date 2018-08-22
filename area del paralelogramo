@@ -1,4 +1,4 @@
-// area del triangulo.cpp : Defines the entry point for the console application.
+// area del paralelogramo.cpp : Defines the entry point for the console application.
 //
 
 #include "stdafx.h"
@@ -22,7 +22,7 @@ int main()
 ***///Pseudocodigo///***
 
 
-Algoritmo areadeltriangulo
+Algoritmo areadelparalelogramo
 	escribir "ingresar la base:";
 	leer b;
 	escribir "ingresar la altura:";
