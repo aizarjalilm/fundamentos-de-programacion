@@ -1,0 +1,35 @@
+// area del triangulo.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+int main()
+{
+	int l1,l2;
+	cout << "longitud del lado 1:";
+	cin >> l1 ;
+	cout << "longitud del lado 2:";
+	cin >> l2 ;
+	cout << "el area del cuadrado es:" << l1*l2 ;
+	getch() ;
+}
+
+
+***Pseudocodigo***
+
+
+Algoritmo areadeltriangulo
+	escribir "ingrese lado 1 del cuadrado:";
+	leer l1;
+	escribir "ingrese lado 2 del cuadrado:";
+	leer l2;
+	area <-(l1*l2);
+	escribir "el area del cuadrado es:";
+	escribir area;
+
+	
+FinAlgoritmo
