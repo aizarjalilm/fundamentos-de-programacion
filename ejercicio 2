@@ -1,0 +1,35 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+
+{
+	float radio,area,perimetro;
+	cout << "escribir el radio de la circunferencia:" ;
+	cin >> radio;
+	area = 3.1416*radio*radio;
+	cout << "el area de la circunferencia es:" ;
+	cout << area << endl;
+	perimetro = 2*3.1416*radio;
+	cout << "el perimetro de la circunferencia es:" ;
+	cout << perimetro ;
+
+	getch();
+}
+
+**Pseudocodigo**
+
+Proceso circunferencia
+	Escribir 'escribir el radio de la circunferencia:'
+	Leer radio
+	area<-3.1416*radio*radio
+	Escribir 'escribir el area de la circunferencia:'
+	Escribir area
+	perimetro<-3.1416*2*radio
+	Escribir 'escribir el perimetro de la circunferencia:'
+	Escribir perimetro
+FinProceso
+
