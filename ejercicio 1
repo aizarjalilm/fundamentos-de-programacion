@@ -1,0 +1,41 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+int main()
+{
+	int a,b,c;
+	cout<< "escribir la variable a:" ;
+	cin>> a;
+	cout<< "escribir la variable b:" ;
+	cin>> b;
+	c=a;
+	a=b;
+	b=c;
+	cout<< "el nuevo valor de a es:" ;
+	cout<< a <<endl;
+	cout<< "el nuevo valor de b es:" ;
+	cout<< b ;
+
+	getch();
+}
+
+
+***Pseudocodigo***
+
+Proceso ejercicio1
+	Escribir 'escribir la variable a:'
+	Leer a
+	Escribir 'escribir la variable b:'
+	Leer b
+	c<-a
+	a<-b
+	b<-c
+	Escribir 'la nueva variable a es:'
+	Escribir a
+	Escribir 'la nueva variable b es:'
+	Escribir b
+FinProceso
+
