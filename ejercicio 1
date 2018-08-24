@@ -26,16 +26,16 @@ int main()
 ***Pseudocodigo***
 
 Proceso ejercicio1
-	Escribir 'escribir la variable a:'
-	Leer a
-	Escribir 'escribir la variable b:'
-	Leer b
-	c<-a
-	a<-b
-	b<-c
-	Escribir 'la nueva variable a es:'
-	Escribir a
-	Escribir 'la nueva variable b es:'
-	Escribir b
+	Escribir 'escribir la variable a:';
+	Leer a;
+	Escribir 'escribir la variable b:';
+	Leer b;
+	c<-a;
+	a<-b;
+	b<-c;
+	Escribir 'la nueva variable a es:';
+	Escribir a;
+	Escribir 'la nueva variable b es:';
+	Escribir b;
 FinProceso
 
